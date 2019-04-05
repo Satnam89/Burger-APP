@@ -18,6 +18,11 @@
 }
 
 .Logo {
-    height: 100%;
-    margin-top: 1%;
+    height: 80%;
+}
+
+@media (max-width : 499px) {
+    .DestopOnly {
+        display: none;
+    }
 }

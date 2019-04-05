@@ -89,9 +89,9 @@ render(){
         <Aux>
             <Modal show={this.state.purchasing} modelClosed={this.purchaseCancelHandler}>
                 <OrderSummary ingredients={this.state.ingredients} 
-                purchasedContinued={this.purchaseContinueHandler}
-                purchasedCancelled={this.purchaseCancelHandler}
-                price={this.state.totalPrice}/>
+                    purchasedContinued={this.purchaseContinueHandler}
+                    purchasedCancelled={this.purchaseCancelHandler}
+                    price={this.state.totalPrice}/>
             </Modal>
             <Burger ingredients={this.state.ingredients}/>
             <BuildControls ingredientsAdded={this.addIngredientHandler}
